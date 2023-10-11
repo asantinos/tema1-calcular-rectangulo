@@ -5,10 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio Área de Rectángulo</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
- 
+    <div class="container">
+        <h1>Calculadora de área, perímetro y diagonal de un rectángulo</h1>
+
+        <!-- action="#" para que no se recargue la web al pulsar el botón -->
+        <form action="#">
+            <div>
+                <!-- for="long" con el id de su input correspondiente para enlazarlos, al hacer click en el label se activa el input -->
+                <label for="long">Longitud: </label>
+                <!-- placeholder para mostrar mensaje sombreado en el input -->
+                <input type="number" id="long" placeholder="Ingrese la longitud">
+            </div>
+            <div>
+                <label for="width">Ancho: </label>
+                <input type="number" id="width" placeholder="Ingrese el ancho">
+            </div>
+            <button class="calculate-btn" id="calculate-btn">Calcular</button>
+        </form>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <!-- importamos el script al final del body -->
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
