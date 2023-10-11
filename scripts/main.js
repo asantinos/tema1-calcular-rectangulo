@@ -1,3 +1,8 @@
+/**
+ * Autor: Alejandro Santos García
+ * Github repository: https://github.com/asantinos/tema1-calcular-rectangulo
+ */
+
 // DOMContentLoaded para que se cargue toda la web antes de ejecutar el script
 document.addEventListener("DOMContentLoaded", () => {
   // Almacenamos el botón y el div del resultado en constantes
